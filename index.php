@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Naslov</title>
+
+    <meta charset="UTF-8">
+
+<title>Naslov</title>
 </head>
 <body>
 <h1>Prvi</h1>
@@ -14,5 +17,13 @@
 
     ?>
 </p>
+<p>
+    <?php
+    $dana_do_praznika = 45;
+    echo('Do praznika ja ostalo još:<b>' . $dana_do_praznika . '</b>');
+    ?>
+</p>
+
+
 </body>
 </html>
