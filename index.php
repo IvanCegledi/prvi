@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
 
 <title>Naslov</title>
 </head>
 <body>
-<h1>Prvi</h1>
 
-<p>
+
+<h1 id="Prvi">Prvi</h1>
+
+<p id="Pozdrav">
+
     <?php
     echo('Pozdrav iz PHP-a');
     echo('<br>');
@@ -17,7 +21,8 @@
 
     ?>
 </p>
-<p>
+<p id="Praznik">
+
     <?php
     $dana_do_praznika = 45;
     echo('Do praznika ja ostalo još:<b>' . $dana_do_praznika . '</b>');
